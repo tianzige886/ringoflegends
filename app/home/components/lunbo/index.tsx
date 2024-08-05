@@ -71,13 +71,13 @@ export default function SwiperForHome() {
         <div className="swiper-container">
           <div className="swiper-wrapper">
             <div className="swiper-slide">
-              <img src={Card1} />
+              <img src={"/assets/home/lunbo_test.svg"} />
             </div>
             <div className="swiper-slide">
-              <img src={Card1} />
+              <img src={"/assets/home/lunbo_test.svg"} />
             </div>
             <div className="swiper-slide">
-              <img src={Card1} />
+              <img src={"/assets/home/lunbo_test.svg"} />
             </div>
           </div>
           <div className={"swiper-button-next"} />

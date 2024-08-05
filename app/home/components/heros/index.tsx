@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./index.module.css";
-import LogoSvg from "@/assets/home/header_logo.svg";
+// import LogoSvg from "@/assets/home/header_logo.svg";
 
 import { useRouter } from "next/navigation";
 
@@ -11,8 +11,11 @@ export default function Banner() {
     <div className={styles.heroPart}>
       <div className={styles.heroPartContent}>
         <div className={styles.heroPartLeft}>
-          <img className={styles.logo} src={LogoSvg} />
-          <img src={LogoSvg} className={styles.heroLeftImg} />
+          <img className={styles.logo} src={"/assets/home/header_logo.svg"} />
+          <img
+            src={"/assets/home/header_logo.svg"}
+            className={styles.heroLeftImg}
+          />
           <div className={styles.info}>
             <div className={styles.infoTitle}>VEXX</div>
             <div className={styles.infoDesc}>
@@ -28,7 +31,7 @@ export default function Banner() {
               onClick={() => router.push(`/characterDetail?id=${1}`)}
             >
               <div className={styles.bg} />
-              <img src={LogoSvg} />
+              <img src={"/assets/home/header_logo.svg"} />
               <div className={styles.name}>test</div>
             </li>
             <li
@@ -36,7 +39,7 @@ export default function Banner() {
               onClick={() => router.push(`/characterDetail?id=${1}`)}
             >
               <div className={styles.bg} />
-              <img src={LogoSvg} />
+              <img src={"/assets/home/header_logo.svg"} />
               <div className={styles.name}>test</div>
             </li>
             <li
@@ -44,7 +47,7 @@ export default function Banner() {
               onClick={() => router.push(`/characterDetail?id=${1}`)}
             >
               <div className={styles.bg} />
-              <img src={LogoSvg} />
+              <img src={"/assets/home/header_logo.svg"} />
               <div className={styles.name}>test</div>
             </li>
             <li
@@ -52,7 +55,7 @@ export default function Banner() {
               onClick={() => router.push(`/characterDetail?id=${1}`)}
             >
               <div className={styles.bg} />
-              <img src={LogoSvg} />
+              <img src={"/assets/home/header_logo.svg"} />
               <div className={styles.name}>test</div>
             </li>
             <li
@@ -60,7 +63,7 @@ export default function Banner() {
               onClick={() => router.push(`/characterDetail?id=${1}`)}
             >
               <div className={styles.bg} />
-              <img src={LogoSvg} />
+              <img src={"/assets/home/header_logo.svg"} />
               <div className={styles.name}>test</div>
             </li>
             <li
@@ -68,7 +71,7 @@ export default function Banner() {
               onClick={() => router.push(`/characterDetail?id=${1}`)}
             >
               <div className={styles.bg} />
-              <img src={LogoSvg} />
+              <img src={"/assets/home/header_logo.svg"} />
               <div className={styles.name}>test</div>
             </li>
             <li
@@ -76,7 +79,7 @@ export default function Banner() {
               onClick={() => router.push(`/characterDetail?id=${1}`)}
             >
               <div className={styles.bg} />
-              <img src={LogoSvg} />
+              <img src={"/assets/home/header_logo.svg"} />
               <div className={styles.name}>test</div>
             </li>
           </ul>

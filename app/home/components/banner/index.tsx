@@ -12,9 +12,12 @@ export default function Banner() {
   return (
     <div className={styles.banner}>
       <div className={styles.bannerContent}>
-        <img className={styles.bannerLogo} src={BannerLogo} />
+        <img
+          className={styles.bannerLogo}
+          src={"/assets/home/banner_logo.svg"}
+        />
         <button className={styles.bannerButton}>
-          <img src={ButtonForBanner} />
+          <img src={"/assets/home/button.svg"} />
         </button>
         <div className={styles.bannerBottom}>
           <div className={styles.desc}>
@@ -22,16 +25,16 @@ export default function Banner() {
           </div>
           <div className={styles.logos}>
             <a className={styles.logo}>
-              <img src={AppstoreLogo} />
+              <img src={"/assets/home/icon_appstore.svg"} />
             </a>
             <a className={styles.logo}>
-              <img src={IconGooglePlay} />
+              <img src={"/assets/home/icon_googlePlay.svg"} />
             </a>
             <a className={styles.logo}>
-              <img src={IconAddToSlack} />
+              <img src={"/assets/home/icon_slack.svg"} />
             </a>
             <a className={styles.logo}>
-              <img src={IconMicrosoft} />
+              <img src={"/assets/home/icon_microsoft.svg"} />
             </a>
           </div>
         </div>

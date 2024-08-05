@@ -1,8 +1,8 @@
 "use client";
 import styles from "./index.module.css";
-import Image from "next/image";
-import Iphone from "@/assets/home/iPhone.svg";
-import TitleSvg from "@/assets/home/gamestory_title.svg";
+// import Image from "next/image";
+// import Iphone from "@/assets/home/iPhone.svg";
+// import TitleSvg from "@/assets/home/gamestory_title.svg";
 
 export default function GameStory() {
   return (
@@ -10,10 +10,13 @@ export default function GameStory() {
       <div className={styles.linear} />
       <div className={styles.gameStoryContent}>
         <div className={styles.contentLeft}>
-          <img src={Iphone} />
+          <img src={"/assets/home/iPhone.svg"} />
         </div>
         <div className={styles.contentRight}>
-          <img src={TitleSvg} className={styles.title} />
+          <img
+            src={"/assets/home/gamestory_title.svg"}
+            className={styles.title}
+          />
           <div className={styles.desc}>
             ring of legends is probably one of the most addicting RPG clicker
             games you will find out there today. In this incremental RPG clicker
