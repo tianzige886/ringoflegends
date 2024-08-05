@@ -1,11 +1,11 @@
 "use client";
 import styles from "./index.module.css";
-import FootLogo from "@/assets/home/foot_logo.svg";
+// import FootLogo from "@/assets/home/foot_logo.svg";
 import Link from "next/link";
-import Image from "next/image";
-import IconFacebook from "@/assets/home/icon_facebook.svg";
-import IconX from "@/assets/home/icon_x.svg";
-import IconDiscord from "@/assets/home/discord.svg";
+// import Image from "next/image";
+// import IconFacebook from "@/assets/home/icon_facebook.svg";
+// import IconX from "@/assets/home/icon_x.svg";
+// import IconDiscord from "@/assets/home/discord.svg";
 
 export default function Footer() {
   return (
@@ -32,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.part}>
-          <img className={styles.footLogo} src={FootLogo} />
+          <img className={styles.footLogo} src={"/assets/home/foot_logo.svg"} />
         </div>
         <div className={styles.part}>
           <ul>
@@ -61,13 +61,13 @@ export default function Footer() {
         </div>
         <div className={styles.medias}>
           <a className={styles.media}>
-            <img src={IconFacebook} />
+            <img src={"/assets/home/icon_facebook.svg"} />
           </a>
           <a className={styles.media}>
-            <img src={IconX} />
+            <img src={"/assets/home/icon_x.svg"} />
           </a>
           <a className={styles.media}>
-            <img src={IconDiscord} />
+            <img src={"/assets/home/discord.svg"} />
           </a>
         </div>
       </div>

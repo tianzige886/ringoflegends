@@ -1,16 +1,16 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./index.module.css";
-import TitleSvg from "@/assets/home/title_featured_news.svg";
-import Feature01 from "@/assets/home/feature_01.png";
-import Feature02 from "@/assets/home/feature_02.png";
-import Feature03 from "@/assets/home/feature_03.png";
+// import TitleSvg from "@/assets/home/title_featured_news.svg";
+// import Feature01 from "@/assets/home/feature_01.png";
+// import Feature02 from "@/assets/home/feature_02.png";
+// import Feature03 from "@/assets/home/feature_03.png";
 
 export default function FeatureNews() {
   return (
     <div className={styles.featureNews}>
       <div className={styles.title}>
-        <img src={TitleSvg} />
+        <img src={"/assets/home/title_featured_news.svg"} />
       </div>
       <div className={styles.listPart}>
         <ul className={styles.list}>

@@ -1,10 +1,10 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./index.module.css";
-import IntroductionTitle from "@/assets/home/introduction_title.svg";
+// import IntroductionTitle from "@/assets/home/introduction_title.svg";
 // import HeroImage from "@/assets/home/testHero.svg";
-import LockImage from "@/assets/home/lock.svg";
-import BackgroundStoryTitle from "@/assets/home/background_story_title.svg";
+// import LockImage from "@/assets/home/lock.svg";
+// import BackgroundStoryTitle from "@/assets/home/background_story_title.svg";
 import { Game } from "@/constants/game.type";
 
 export default function ShortIntro(props: { data: Game }) {
@@ -12,7 +12,7 @@ export default function ShortIntro(props: { data: Game }) {
   return (
     <div className={styles.shortIntro}>
       <div className={styles.title}>
-        <img src={IntroductionTitle} />
+        <img src={"/assets/home/introduction_title.svg"} />
       </div>
       <div className={styles.intro}>
         <div className={styles.introContent}>
@@ -38,7 +38,7 @@ export default function ShortIntro(props: { data: Game }) {
         </div>
       </div>
       <div className={styles.backgroundStoryTitle}>
-        <img src={BackgroundStoryTitle} />
+        <img src={"/assets/home/background_story_title.svg"} />
       </div>
       <div className={styles.backgroundStoryDesc}>
         <p>

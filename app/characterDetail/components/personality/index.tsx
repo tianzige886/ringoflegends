@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./index.module.css";
-import PersonalityTitle from "@/assets/home/personality_title.svg";
+// import PersonalityTitle from "@/assets/home/personality_title.svg";
 import { TabsConfig } from "@/constants/index";
 import { useState } from "react";
 import Abilitys from "@/app/characterDetail/components/abilitys";
@@ -17,7 +17,7 @@ export default function Personality(props: { data: Game }) {
   return (
     <div className={styles.personalityPart}>
       <div className={styles.title}>
-        <img src={PersonalityTitle} />
+        <img src={"/assets/home/personality_title.svg"} />
       </div>
       <div className={styles.description}>
         A blacksmith's apprentice cursed by a spell. All he touches falls apart.

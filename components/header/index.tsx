@@ -2,12 +2,12 @@
 import { useEffect, useState, useContext } from "react";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import styles from "./index.module.css";
-import LogoImage from "@/assets/home/header_logo.svg";
+// import LogoImage from "@/assets/home/header_logo.svg";
 import { NavListConfig } from "@/constants/index";
-import Link from "next/link";
-import Image from "next/image";
-import IconFacebook from "@/assets/home/icon_facebook.svg";
-import IconX from "@/assets/home/icon_x.svg";
+// import Link from "next/link";
+// import Image from "next/image";
+// import IconFacebook from "@/assets/home/icon_facebook.svg";
+// import IconX from "@/assets/home/icon_x.svg";
 import IconDiscord from "@/assets/home/discord.svg";
 
 export default function HeaderNav() {
@@ -22,7 +22,7 @@ export default function HeaderNav() {
     <div className={styles.head}>
       <div className={styles.headContent}>
         <div className={styles.logo}>
-          <img src={LogoImage} />
+          <img src={"/assets/home/header_logo.svg"} />
         </div>
         <div className={styles.nav}>
           <ul className={styles.navList}>
@@ -43,13 +43,13 @@ export default function HeaderNav() {
           <div className={styles.line} />
           <div className={styles.medias}>
             <a className={styles.media}>
-              <img src={IconFacebook} />
+              <img src={"/assets/home/icon_facebook.svg"} />
             </a>
             <a className={styles.media}>
-              <img src={IconX} />
+              <img src={"/assets/home/icon_x.svg"} />
             </a>
             <a className={styles.media}>
-              <img src={IconDiscord} />
+              <img src={"/assets/home/discord.svg"} />
             </a>
           </div>
         </div>

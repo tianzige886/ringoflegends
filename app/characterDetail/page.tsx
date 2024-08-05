@@ -8,11 +8,11 @@ import { useSearchParams } from "next/navigation";
 import { getGame } from "@/services/game";
 import { useEffect, useState } from "react";
 import { Game } from "@/constants/game.type";
-import { Suspense } from "react";
 
 export default function CharacterDetail() {
-  const searchParams: any = useSearchParams();
-  const [game, setGame] = useState<Game>();
+  const searchParams = useSearchParams();
+  const [game, setGame] = useState<Game | null>(null);
+  const [loading, setLoading] = useState<boolean>(true); // 添加加载状态
 
   const getData = async (id: string | number) => {
     try {
@@ -20,24 +20,32 @@ export default function CharacterDetail() {
       if (res?.code === 0) {
         setGame(res?.data);
       }
-    } catch (e: any) {}
+    } catch (e) {
+      console.error("Failed to fetch game data", e); // 错误处理
+    } finally {
+      setLoading(false); // 确保在请求完成后设置加载状态
+    }
   };
 
   useEffect(() => {
-    const id: any = searchParams?.get("id");
-    getData(id);
-  }, []);
+    const id = searchParams?.get("id");
+    if (id) {
+      getData(id);
+    }
+  }, [searchParams]);
+
+  if (loading) {
+    return <div>加载中...</div>; // 加载指示器
+  }
 
   return (
-    <Suspense fallback={""}>
-      <main className={styles.main}>
-        {game && <Banner data={game} />}
-        <div className={styles.bg}>
-          {game && <ShortIntro data={game} />}
-          {game && <Personality data={game} />}
-          <Heros />
-        </div>
-      </main>
-    </Suspense>
+    <main className={styles.main}>
+      {game && <Banner data={game} />}
+      <div className={styles.bg}>
+        {game && <ShortIntro data={game} />}
+        {game && <Personality data={game} />}
+        <Heros />
+      </div>
+    </main>
   );
 }
