@@ -28,13 +28,15 @@ export default function CharacterDetail() {
   }, []);
 
   return (
-    <main className={styles.main}>
-      {game && <Banner data={game} />}
-      <div className={styles.bg}>
-        {game && <ShortIntro data={game} />}
-        {game && <Personality data={game} />}
-        <Heros />
-      </div>
-    </main>
+    <Suspense fallback={""}>
+      <main className={styles.main}>
+        {game && <Banner data={game} />}
+        <div className={styles.bg}>
+          {game && <ShortIntro data={game} />}
+          {game && <Personality data={game} />}
+          <Heros />
+        </div>
+      </main>
+    </Suspense>
   );
 }
