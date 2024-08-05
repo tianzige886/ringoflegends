@@ -15,7 +15,7 @@ function CharacterDetail() {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    const id = searchParams.get("id");
+    const id = searchParams?.get("id") || -1;
     if (id) {
       getData(id);
     }
