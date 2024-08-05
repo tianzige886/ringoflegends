@@ -8,6 +8,7 @@ import { useSearchParams } from "next/navigation";
 import { getGame } from "@/services/game";
 import { useEffect, useState } from "react";
 import { Game } from "@/constants/game.type";
+import { Suspense } from "react";
 
 export default function CharacterDetail() {
   const searchParams: any = useSearchParams();
