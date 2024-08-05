@@ -1,0 +1,58 @@
+.featureNews {
+    width: 100%;
+    margin-top: 265px;
+    margin-bottom: 50px;
+}
+.title {
+    width: 760px;
+    margin: 0 auto;
+}
+.title img {
+    width: 100%;
+}
+.listPart {
+    display: flex;
+    justify-content: center;
+    margin-top: 99px;
+}
+.list {
+    display: flex;
+    gap: 44px;
+    justify-content: center;
+}
+.item {
+    width: 370px;
+    height: 311px;
+    border-radius: 12px;
+    background: #232F45;
+    overflow: hidden;
+}
+.itemImage {
+    width: 370px;
+    height: 180px;
+    object-fit: cover;
+}
+.itemBottom {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px 0 20px;
+}
+.title {
+    color: #E9D7BE;
+    font-family: Sora;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    text-transform: uppercase;
+}
+.desc {
+    color: #EDE5D9;
+    font-family: "Bai Jamjuree";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    text-transform: capitalize;
+    margin-top: 6px;
+}

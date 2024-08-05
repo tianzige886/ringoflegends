@@ -1,0 +1,27 @@
+<svg width="154" height="60" viewBox="0 0 154 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M106.684 54.6815L106.285 54.5396H77.1641H48.1435L47.7403 54.6856L43.0788 58.5702H9.69291L1.21182 50.8601V30.8596V11.5532L9.75637 0.629787L73.6373 0.629816H140.785L153.116 11.6185V30.8596V50.8688L145.03 58.5702H111.447L106.684 54.6815Z" fill="url(#paint0_angular_71_2914)" stroke="url(#paint1_angular_71_2914)" stroke-width="1.25957" stroke-linejoin="bevel"/>
+<path d="M37.4746 54.4766H34.4516L37.6635 57.8774H40.6865L37.4746 54.4766Z" fill="#A06939"/>
+<path d="M31.9951 54.4766H28.9721L32.1841 57.8774H35.207L31.9951 54.4766Z" fill="#A06939"/>
+<path d="M26.5166 54.4766H23.4936L26.7055 57.8774H29.7285L26.5166 54.4766Z" fill="#A06939"/>
+<path d="M131.88 2.82145L129.059 0H141.957L150.622 8.06127H145.383L140.143 2.82145H131.88Z" fill="#A06939"/>
+<path d="M19.3241 55.6229L22.1455 58.4443L9.24747 58.4443L0.581609 50.3831L5.82143 50.3831L11.0613 55.6229L19.3241 55.6229Z" fill="#A06939"/>
+<path d="M37.4746 54.4766H34.4516L37.6635 57.8774H40.6865L37.4746 54.4766Z" fill="#A06939"/>
+<path d="M31.9951 54.4766H28.9721L32.1841 57.8774H35.207L31.9951 54.4766Z" fill="#A06939"/>
+<path d="M26.5166 54.4766H23.4936L26.7055 57.8774H29.7285L26.5166 54.4766Z" fill="#A06939"/>
+<path d="M131.88 2.82145L129.059 0H141.957L150.622 8.06127H145.383L140.143 2.82145H131.88Z" fill="#A06939"/>
+<path d="M19.3241 55.6229L22.1455 58.4443L9.24747 58.4443L0.581609 50.3831L5.82143 50.3831L11.0613 55.6229L19.3241 55.6229Z" fill="#A06939"/>
+<defs>
+<radialGradient id="paint0_angular_71_2914" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(77.1641 29.6) scale(76.5821 29.6)">
+<stop stop-color="#A06939"/>
+<stop offset="0.313195" stop-color="#C6A27E"/>
+<stop offset="0.75531" stop-color="#FBF3E0"/>
+<stop offset="1" stop-color="#957C50"/>
+</radialGradient>
+<radialGradient id="paint1_angular_71_2914" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(77.1641 29.6) scale(76.5821 29.6)">
+<stop stop-color="#A06939"/>
+<stop offset="0.313195" stop-color="#C6A27E"/>
+<stop offset="0.75531" stop-color="#FBF3E0"/>
+<stop offset="1" stop-color="#957C50"/>
+</radialGradient>
+</defs>
+</svg>

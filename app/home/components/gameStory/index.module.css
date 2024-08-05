@@ -1,0 +1,56 @@
+.gameStory {
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1440px;
+    position: relative;
+    padding-top: 104px;
+}
+
+.gameStoryContent {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    gap: 51px;
+}
+
+.contentLeft {
+    width: 169px;
+    height: 344px;
+}
+
+.contentLeft img {
+    width: 100%;
+}
+
+.contentRight {
+    width: 971px;
+}
+
+.contentRight .title {
+    margin-bottom: 49px;
+    width: 463px;
+}
+
+.contentRight .desc {
+    color: #EDE5D9;
+    font-family: Sora;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    text-transform: capitalize;
+}
+
+.linear {
+    position: absolute;
+    height: 322px;
+    top: 180px;
+    width: 100%;
+    left: 50%;
+    z-index: 2;
+    margin-left: -700px;
+    background: linear-gradient(90deg, rgba(10, 15, 33, 0.84) 0%, rgba(22, 33, 36, 0.84) 49.43%, rgba(12, 17, 35, 0.84) 100%);
+}
+
+

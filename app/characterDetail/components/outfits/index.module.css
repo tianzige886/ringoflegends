@@ -1,0 +1,82 @@
+.abilitysParts {
+    width: 1019px;
+}
+.abilityTitles {
+    margin-bottom: 30px;
+}
+.abilityTitles .list {
+    display: flex;
+    gap: 86px;
+    color: #A59378;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    text-transform: capitalize;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+.col1 {
+    width: 180px;
+}
+.col2 {
+    width: 387px;
+    display: flex;
+    align-items: center;
+}
+.col3 {
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+.abilityContent {
+    width: 1019px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 340px;
+}
+
+.abilityContent .row {
+    border-radius: 8px;
+    background: #161F29;
+    min-height: 170px;
+    box-sizing: border-box;
+    padding: 16px 20px;
+}
+
+.abilityContent .row .list {
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+
+.abilityContent .col1 {
+}
+
+.abilityContent .col1 img {
+    width: 128px;
+    height: 124px;
+}
+
+.abilityContent .col2 {
+    color: #D4A750;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 122.222% */
+    text-transform: capitalize;
+}
+
+.abilityContent .col3 {
+    color: #FBFDFF;
+    font-family: "Bai Jamjuree";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    text-transform: capitalize;
+}

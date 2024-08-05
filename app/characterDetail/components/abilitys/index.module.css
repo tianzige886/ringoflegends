@@ -1,0 +1,128 @@
+.abilitysParts {
+    width: 1019px;
+}
+.abilityTitles {
+    margin-bottom: 30px;
+}
+.abilityTitles .list {
+    display: flex;
+    gap: 60px;
+    color: #A59378;
+    text-align: center;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 111.111% */
+    text-transform: capitalize;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+.col1 {
+    width: 260px;
+}
+.col2 {
+    width: 387px;
+}
+.col3 {
+    width: 138px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col4 {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abilityContent {
+    width: 1019px;
+    overflow-y: auto;
+    height: 340px;
+}
+
+.abilityContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.abilityContent .row {
+    border-radius: 8px;
+    background: #161F29;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 16px 20px;
+}
+
+.abilityContent .row .list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.abilityContent .col1 {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.abilityContent .head {
+    width: 69px;
+    height: 69px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.abilityContent .head img {
+    width: 100%;
+}
+
+.abilityContent .name {
+    color: #00A0EA;
+    font-family: "Bai Jamjuree";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 110% */
+    text-transform: capitalize;
+}
+
+.abilityContent .col2 {
+    color: #FBFDFF;
+    font-family: "Bai Jamjuree";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    text-transform: capitalize;
+}
+
+.abilityContent .col3 {
+    color: #FBFDFF;
+    font-family: "Bai Jamjuree";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abilityContent .col4 {
+    color: #FBFDFF;
+    font-family: "Bai Jamjuree";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

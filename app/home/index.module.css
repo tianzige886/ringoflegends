@@ -1,0 +1,15 @@
+.main {
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1440px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.bg {
+    width: 100%;
+    background: url("/assets/home/bg1.svg") no-repeat center center;
+    background-size: 100%;
+    padding-bottom: 219px;
+}

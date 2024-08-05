@@ -1,0 +1,78 @@
+.personalityPart {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.title {
+    width: 697px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.title img {
+    width: 100%;
+}
+
+.description {
+    margin: 0 auto;
+    width: 813px;
+    text-align: center;
+    color: #9BA7AD;
+    font-family: "Bai Jamjuree";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 36px;
+}
+
+.tabs {
+    width: 1160px;
+    height: 535px;
+    background: url("/assets/home/big_frame.svg") no-repeat center center;
+    background-size: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.tabTitles {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -12px;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.item {
+    width: 153px;
+    height: 59px;
+    background: url("/assets/home/button_normal.svg") no-repeat center center;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.activeItem {
+    width: 153px;
+    height: 59px;
+    background: url("/assets/home/button_active.png") no-repeat center center;
+    background-size: 100%;
+    color: #41322A;
+}
+
+.tabContent {
+    width: 1019px;
+    margin: 92px auto 0 auto;
+    padding-top: 78px;
+}
