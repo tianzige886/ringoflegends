@@ -12,6 +12,7 @@
 .logo {
     width: 154px;
     height: 192px;
+    cursor: pointer;
 }
 
 .logo img{

@@ -72,6 +72,7 @@
 
 .media {
   width: 24px;
+  cursor: pointer;
 }
 
 .media img {

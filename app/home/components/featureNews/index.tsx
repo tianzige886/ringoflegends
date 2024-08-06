@@ -17,7 +17,7 @@ export default function FeatureNews() {
           <li className={styles.item}>
             <img
               className={styles.itemImage}
-              src={"/assets/home/feature_01.png"}
+              src={"/assets/home/bottom1.svg"}
             />
             <div className={styles.itemBottom}>
               <div className={styles.title}>FIGHT EVIL!</div>
@@ -28,10 +28,7 @@ export default function FeatureNews() {
             </div>
           </li>
           <li className={styles.item}>
-            <img
-              className={styles.itemImage}
-              src={"/assets/home/feature_02.png"}
-            />
+            <img className={styles.itemImage} src={"/assets/home/botom2.svg"} />
             <div className={styles.itemBottom}>
               <div className={styles.title}>UNLOCK EVERYTHING!</div>
               <div className={styles.desc}>
@@ -43,7 +40,7 @@ export default function FeatureNews() {
           <li className={styles.item}>
             <img
               className={styles.itemImage}
-              src={"/assets/home/feature_03.png"}
+              src={"/assets/home/bottom3.svg"}
             />
             <div className={styles.itemBottom}>
               <div className={styles.title}>IMPROVE EVERY TIME!</div>
