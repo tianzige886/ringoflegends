@@ -17,18 +17,6 @@ export const NavListConfig: NavType[] = [
     name: "CHARACTERS",
     link: "/character",
   },
-  // {
-  //   id: 3,
-  //   name: "support",
-  //   link: "https://www.baidu.com",
-  //   target: "_blank",
-  // },
-  // {
-  //   id: 4,
-  //   name: "community",
-  //   link: "https://www.baidu.com",
-  //   target: "_blank",
-  // },
 ];
 
 export const TabsConfig: TabType[] = [
