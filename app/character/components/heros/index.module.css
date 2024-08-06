@@ -77,7 +77,7 @@
 }
 
 .heros {
-    margin-top: 58px;
+    margin-top: 20px;
 }
 
 .heroList {
@@ -133,3 +133,4 @@
     line-height: 20px; /* 125% */
     text-transform: uppercase;
 }
+

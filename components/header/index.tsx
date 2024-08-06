@@ -8,7 +8,7 @@ import { NavListConfig } from "@/constants/index";
 // import Image from "next/image";
 // import IconFacebook from "@/assets/home/icon_facebook.svg";
 // import IconX from "@/assets/home/icon_x.svg";
-import IconDiscord from "@/assets/home/discord.svg";
+// import IconDiscord from "@/assets/home/discord.svg";
 
 export default function HeaderNav() {
   const pathName = usePathname();

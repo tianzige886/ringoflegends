@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./index.module.css";
 import "@/assets/slide/swiper-bundle.min.css";
 import "@/assets/slide/certify.css";
-import Card1 from "@/assets/home/lunbo_test.svg";
+// import Card1 from "@/assets/home/lunbo_test.svg";
 import { useLayoutEffect } from "react";
 
 export default function SwiperForHome() {

@@ -4,6 +4,8 @@
     background-size: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding-top: 60px;
     padding-bottom: 100px;
     margin-top: 219px;
@@ -106,4 +108,14 @@
     font-weight: 700;
     line-height: 20px; /* 125% */
     text-transform: uppercase;
+}
+
+.heroTitle {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 98px;
+}
+
+.heroTitle img {
+    width: 100%;
 }

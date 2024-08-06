@@ -13,6 +13,9 @@ export default function Banner() {
   const [active, setActive] = useState<HomeConfig>(HomeConfigs[0]);
   return (
     <div className={styles.heroPart}>
+      <div className={styles.heroTitle}>
+        <img src={"/assets/home/character_title.svg"} />
+      </div>
       <div className={styles.heroPartContent}>
         <div className={styles.heroPartLeft}>
           <img src={active.bigPic} className={styles.heroLeftImg} />

@@ -1,12 +1,12 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./index.module.css";
-import BannerLogo from "@/assets/home/banner_logo.svg";
-import AppstoreLogo from "@/assets/home/icon_appstore.svg";
-import IconGooglePlay from "@/assets/home/icon_googlePlay.svg";
-import IconAddToSlack from "@/assets/home/icon_slack.svg";
-import IconMicrosoft from "@/assets/home/icon_microsoft.svg";
-import ButtonForBanner from "@/assets/home/button.svg";
+// import BannerLogo from "@/assets/home/banner_logo.svg";
+// import AppstoreLogo from "@/assets/home/icon_appstore.svg";
+// import IconGooglePlay from "@/assets/home/icon_googlePlay.svg";
+// import IconAddToSlack from "@/assets/home/icon_slack.svg";
+// import IconMicrosoft from "@/assets/home/icon_microsoft.svg";
+// import ButtonForBanner from "@/assets/home/button.svg";
 
 export default function Banner() {
   return (

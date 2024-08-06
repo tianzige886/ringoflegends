@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "./index.module.css";
-import TestHead from "@/assets/home/testHead.svg";
+// import TestHead from "@/assets/home/testHead.svg";
 import type { Skills } from "@/constants/game.type";
 
 export default function Skills(props: { data: Skills[] }) {
