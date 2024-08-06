@@ -19,10 +19,7 @@ export default function Personality(props: { data: Game }) {
       <div className={styles.title}>
         <img src={"/assets/home/personality_title.svg"} />
       </div>
-      <div className={styles.description}>
-        A blacksmith's apprentice cursed by a spell. All he touches falls apart.
-        He'd love to be a noble knight but it's never gonna happen.
-      </div>
+      <div className={styles.description}>{data?.personality}</div>
       <div className={styles.tabs}>
         <div className={styles.tabTitles}>
           <ul className={styles.list}>

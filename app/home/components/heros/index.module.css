@@ -29,10 +29,10 @@
 }
 .info {
     margin-top: 20px;
-
+    height: 50px;
 }
 .infoTitle {
-    text-align: center;
+    text-align: left;
     color: #EFE5CF;
     font-family: "Bruno Ace";
     font-size: 24px;
@@ -42,7 +42,7 @@
     text-transform: uppercase;
 }
 .infoDesc {
-    text-align: center;
+    text-align: left;
     color: #EDE5D9;
     font-family: "Bai Jamjuree";
     font-size: 16px;
@@ -54,6 +54,9 @@
 }
 .heroPartRight {
     width: 853px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .heroList {
     display: flex;

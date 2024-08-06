@@ -34,8 +34,17 @@ export interface Game {
   introduction: string;
   characterName: string;
   characterIcon: string;
+  backgroundStory: string;
+  personality: string;
   abilities: Abilities[];
   skills: Skills[];
   items: Items[];
   outfits: Outfits[];
+}
+export interface HomeConfig {
+  name: string;
+  id: number;
+  introduction: string;
+  pic: string;
+  bigPic: string;
 }

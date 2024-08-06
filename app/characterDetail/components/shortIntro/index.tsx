@@ -30,10 +30,8 @@ export default function ShortIntro(props: { data: Game }) {
                 {data?.characterName}
               </span>
             </div>
-            <div className={styles.rightDesc}>
-              {data?.name} is a defender tant can be unlocjked reaching stage
-              245 in adventure mode.
-            </div>
+            <div className={styles.name}>{data?.name}</div>
+            <div className={styles.rightDesc}>{data?.introduction}</div>
           </div>
         </div>
       </div>
@@ -41,26 +39,7 @@ export default function ShortIntro(props: { data: Game }) {
         <img src={"/assets/home/background_story_title.svg"} />
       </div>
       <div className={styles.backgroundStoryDesc}>
-        <p>
-          Hilt works as a tester for his Grandfather, who is a blacksmith in the
-          village of Drald in the Verdant Domains. Anything Grandfather makes,
-          he gives to Hilt, for Hilt has a terrible curse upon him: he breaks
-          almost everything he touches. He doesn’t do it on purpose; things just
-          break or stop working when he holds them.
-        </p>
-        <br />
-        <br />
-        <p>
-          Grandfather hands him swords, shields, daggers, etc, to see where the
-          weak points are when they break. He then perfects the designs.
-        </p>
-        <br />
-        <br />
-        <p>
-          Hilt has always dreamt of becoming a knight and reads books about
-          heroic deeds and noble quests. But, it’s not for him – as his family
-          always say. He’d only break the horse or something.
-        </p>
+        <p>{data?.backgroundStory}</p>
       </div>
     </div>
   );

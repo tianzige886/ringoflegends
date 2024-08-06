@@ -1,7 +1,6 @@
 .heroPart{
     width: 971px;
     margin: 0 auto;
-    padding-top: 91px;
 }
 .heroPartContent{
     display: flex;
@@ -40,9 +39,37 @@
     width: 100%;
 }
 
+.logos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 106px;
+}
+
+.logo {
+    width: 164px;
+}
+
+.heroCategorys {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.heroPart {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    align-items: center;
+    justify-content: center;
+}
 .smallTitle {
     margin-top: 79px;
-    width: 190px;
+    width: 188px;
 }
 
 .smallTitle img{
@@ -105,18 +132,4 @@
     font-weight: 700;
     line-height: 20px; /* 125% */
     text-transform: uppercase;
-}
-
-
-.logos {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 106px;
-}
-
-.logo {
-    width: 164px;
 }

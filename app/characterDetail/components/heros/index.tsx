@@ -1,15 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./index.module.css";
-// import LogoSvg from "@/assets/home/banner_logo.svg";
-// import TitleImage from "@/assets/home/hero_title.svg";
-// import Title1Image from "@/assets/home/11.svg";
-// import Title2Image from "@/assets/home/22.svg";
-// import Title3Image from "@/assets/home/33.svg";
-// import AppstoreLogo from "@/assets/home/icon_appstore.svg";
-// import IconGooglePlay from "@/assets/home/icon_googleplay.svg";
-// import IconAddToSlack from "@/assets/home/icon_slack.svg";
-import IconMicrosoft from "@/assets/home/icon_microsoft.svg";
+import { HomeConfigs } from "@/constants";
 
 export default function Heros() {
   return (
@@ -18,134 +10,60 @@ export default function Heros() {
         <div className={styles.title}>
           <img src={"/assets/home/hero_title.svg"} />
         </div>
-        {/* list 1 */}
-        <div className={styles.smallTitle}>
-          <img src={"/assets/home/11.svg"} />
-        </div>
-        <div className={styles.heros}>
-          <ul className={styles.heroList}>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-          </ul>
-        </div>
-        {/* list 2 */}
-        <div className={styles.smallTitle}>
-          <img src={"/assets/home/22.svg"} />
-        </div>
-        <div className={styles.heros}>
-          <ul className={styles.heroList}>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-          </ul>
-        </div>
-        {/* list 3 */}
-        <div className={styles.smallTitle}>
-          <img src={"/assets/home/33.svg"} />
-        </div>
-        <div className={styles.heros}>
-          <ul className={styles.heroList}>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-            <li className={styles.heroItem}>
-              <div className={styles.bg} />
-              <img src={"/assets/home/banner_logo.svg"} />
-              <div className={styles.name}>test</div>
-            </li>
-          </ul>
+        {/* type 1 */}
+        <div className={styles.heroCategorys}>
+          <div className={styles.heroPart}>
+            <div className={styles.smallTitle}>
+              <img src={"/assets/home/11.svg"} />
+            </div>
+            <div className={styles.heros}>
+              <ul className={styles.heroList}>
+                <li className={styles.heroItem}>
+                  <div className={styles.bg} />
+                  <img src={HomeConfigs[1].pic ?? ""} />
+                  <div className={styles.name}>{HomeConfigs[1].name}</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.heroPart}>
+            <div className={styles.smallTitle}>
+              <img src={"/assets/home/22.svg"} />
+            </div>
+            <div className={styles.heros}>
+              <ul className={styles.heroList}>
+                <li className={styles.heroItem}>
+                  <div className={styles.bg} />
+                  <img src={HomeConfigs[0].pic ?? ""} />
+                  <div className={styles.name}>{HomeConfigs[0].name}</div>
+                </li>
+                <li className={styles.heroItem}>
+                  <div className={styles.bg} />
+                  <img src={HomeConfigs[2].pic ?? ""} />
+                  <div className={styles.name}>{HomeConfigs[2].name}</div>
+                </li>
+                <li className={styles.heroItem}>
+                  <div className={styles.bg} />
+                  <img src={HomeConfigs[3].pic ?? ""} />
+                  <div className={styles.name}>{HomeConfigs[3].name}</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className={styles.heroPart}>
+            <div className={styles.smallTitle}>
+              <img src={"/assets/home/33.svg"} />
+            </div>
+            <div className={styles.heros}>
+              <ul className={styles.heroList}>
+                <li className={styles.heroItem}>
+                  <div className={styles.bg} />
+                  <img src={HomeConfigs[4].pic ?? ""} />
+                  <div className={styles.name}>{HomeConfigs[4].name}</div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         {/* medias */}
