@@ -28,7 +28,7 @@ export default function Banner() {
               <img src={"/assets/home/icon_appstore.svg"} />
             </a>
             <a className={styles.logo}>
-              <img src={"/assets/home/icon_googlePlay.svg"} />
+              <img src={"/assets/home/icon_googleplay.svg"} />
             </a>
             <a className={styles.logo}>
               <img src={"/assets/home/icon_slack.svg"} />
