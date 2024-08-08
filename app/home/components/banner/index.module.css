@@ -16,14 +16,15 @@
 }
 
 .bannerLogo {
-    width: 196px;
-    height: 245px;
+    width: 151px;
+    height: 200px;
 }
 
 .bannerButton {
-    width: 294px;
+    width: 244px;
     margin-top: 40px;
 }
+
 .bannerBottom {
     margin-top: 150px;
     display: flex;

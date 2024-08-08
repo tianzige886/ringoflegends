@@ -8,6 +8,7 @@ export default function Heros() {
   const router = useRouter();
   return (
     <div className={styles.heroPart}>
+      <div className={styles.linearBg} />
       <div className={styles.heroPartContent}>
         <div className={styles.logo}>
           <img src={"/assets/home/banner_logo.svg"} />

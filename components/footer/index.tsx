@@ -17,14 +17,14 @@ export default function Footer() {
         <div className={styles.part}>
           <ul>
             <li>
-              <Link href={"https://www.baidu.com"}>game story</Link>
+              <a href={"/"}>game story</a>
             </li>
           </ul>
         </div>
         <div className={styles.part}>
           <ul>
             <li>
-              <Link href={"https://www.baidu.com"}>CHARACTERS</Link>
+              <a href={"/character"}>CHARACTERS</a>
             </li>
           </ul>
         </div>
@@ -34,7 +34,7 @@ export default function Footer() {
         <div className={styles.part}>
           <ul>
             <li>
-              <Link href={"https://www.baidu.com"}>twitter</Link>
+              <Link href={"https://x.com/RingofLegends_"}>twitter</Link>
             </li>
           </ul>
         </div>
@@ -56,6 +56,8 @@ export default function Footer() {
           {/*</a>*/}
           <a
             className={styles.media}
+            href={"https://x.com/RingofLegends_"}
+            target={"_blank"}
             onMouseEnter={() => setIsXHover(true)}
             onMouseLeave={() => setIsXHover(false)}
           >

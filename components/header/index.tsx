@@ -45,6 +45,8 @@ export default function HeaderNav() {
             {/*  <img src={"/assets/home/icon_facebook.svg"} />*/}
             {/*</a>*/}
             <a
+              href={"https://x.com/RingofLegends_"}
+              target={"_blank"}
               className={styles.media}
               onMouseEnter={() => setIsXHover(true)}
               onMouseLeave={() => setIsXHover(false)}

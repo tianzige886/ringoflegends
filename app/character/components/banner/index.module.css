@@ -1,11 +1,12 @@
 .banner {
     width: 100%;
-    height: 800px;
+    height: 600px;
     background: url("/assets/home/banner2.svg") no-repeat center center;
     background-size: 100%;
     display: flex;
     justify-content: center;
     overflow-x: hidden;
+    box-sizing: content-box;
 }
 
 .bannerContent {
